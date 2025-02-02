@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #191826;
+  background: url(../assets/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+}
+
+.container {
+  max-width: 112rem;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 8.8rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+  color: #191826;
+}
+
+.heading-thirtiary {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.8;
+  transition: all 0.3s;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 1.6rem;
+}
